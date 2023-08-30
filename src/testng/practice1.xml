@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+	<test name="test1">
+		<parameter name="SITE001" value="google" />
+		<parameter name="SITE002" value="deepl" />
+
+		<groups>
+			<run>
+				<include name="toEnglish" />
+				<!-- <include name="deepl" /> -->
+			</run>
+		</groups>
+		<classes>
+			<!-- パッケージ名.クラス名 -->
+			<class name="TestMethodClass" />
+			<!-- <class name="OpenTranslateSite" /> -->
+			<!-- <class name="testngTest.PrintMessageTest" /> -->
+		</classes>
+	</test>
+</suite>

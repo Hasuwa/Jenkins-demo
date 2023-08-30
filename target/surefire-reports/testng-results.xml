@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T13:15:44 JST" name="suite1" finished-at="2023-08-30T13:16:03 JST" duration-ms="19107">
+    <groups>
+      <group name="cartCheck2">
+        <method signature="AddToCartTest2.checkItemB()[pri:0, instance:AmazonCartTest.AddToCartTest2@4686afc2]" name="checkItemB" class="AmazonCartTest.AddToCartTest2"/>
+      </group> <!-- cartCheck2 -->
+      <group name="cartCheck1">
+        <method signature="AddToCartTest1.checkItemA()[pri:0, instance:AmazonCartTest.AddToCartTest1@d9345cd]" name="checkItemA" class="AmazonCartTest.AddToCartTest1"/>
+      </group> <!-- cartCheck1 -->
+    </groups>
+    <test started-at="2023-08-30T13:15:44 JST" name="test1" finished-at="2023-08-30T13:16:03 JST" duration-ms="19107">
+      <class name="AmazonCartTest.AddToCartTest1">
+        <test-method is-config="true" signature="beforeCheckItemA()[pri:0, instance:AmazonCartTest.AddToCartTest1@d9345cd]" started-at="2023-08-30T13:15:44 JST" name="beforeCheckItemA" finished-at="2023-08-30T13:15:50 JST" duration-ms="5639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCheckItemA -->
+        <test-method signature="checkItemA()[pri:0, instance:AmazonCartTest.AddToCartTest1@d9345cd]" started-at="2023-08-30T13:15:50 JST" name="checkItemA" finished-at="2023-08-30T13:16:03 JST" duration-ms="13147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemA -->
+        <test-method is-config="true" signature="afterCheckItemA()[pri:0, instance:AmazonCartTest.AddToCartTest1@d9345cd]" started-at="2023-08-30T13:16:03 JST" name="afterCheckItemA" finished-at="2023-08-30T13:16:03 JST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCheckItemA -->
+      </class> <!-- AmazonCartTest.AddToCartTest1 -->
+      <class name="AmazonCartTest.AddToCartTest2">
+        <test-method is-config="true" signature="beforeCheckItemA()[pri:0, instance:AmazonCartTest.AddToCartTest2@4686afc2]" started-at="2023-08-30T13:15:44 JST" name="beforeCheckItemA" finished-at="2023-08-30T13:15:50 JST" duration-ms="5412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCheckItemA -->
+        <test-method signature="checkItemB()[pri:0, instance:AmazonCartTest.AddToCartTest2@4686afc2]" started-at="2023-08-30T13:15:50 JST" name="checkItemB" finished-at="2023-08-30T13:16:02 JST" duration-ms="12664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemB -->
+        <test-method is-config="true" signature="afterCheckItemA()[pri:0, instance:AmazonCartTest.AddToCartTest2@4686afc2]" started-at="2023-08-30T13:16:02 JST" name="afterCheckItemA" finished-at="2023-08-30T13:16:02 JST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCheckItemA -->
+      </class> <!-- AmazonCartTest.AddToCartTest2 -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
