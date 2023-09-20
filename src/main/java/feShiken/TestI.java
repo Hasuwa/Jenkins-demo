@@ -30,7 +30,7 @@ public class TestI extends Test_Base {
 		selectYear();
 		startQuestion();
 		//選択するアイウエのXPathを渡す
-		answerQuestion(SEND_ANS_A_PATH);
+		answerQuestion(SEND_ANS_U_PATH);
 		assertEquals(sentAnswer, correctAnswer);
 	}
 }
