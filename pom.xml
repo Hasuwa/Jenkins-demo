@@ -60,7 +60,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							src\testng\practice3.xml
+							src\testng\feShiken.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
